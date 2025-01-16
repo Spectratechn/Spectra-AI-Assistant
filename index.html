@@ -6,50 +6,82 @@
     <title>Spectra AI Assistant</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
             color: #333;
+            line-height: 1.6;
         }
+
         header {
             background-color: #6200ea;
             color: #fff;
-            padding: 20px 0;
+            padding: 20px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         header h1 {
+            font-size: 3rem;
             margin: 0;
-            font-size: 2.5rem;
         }
+
         .hero {
             text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(to bottom, #ffffff, #e8e8e8);
+            padding: 50px 20px;
+            background: linear-gradient(to bottom, #ffffff, #f0f0f0);
         }
+
         .hero img {
-            max-width: 300px;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
         }
+
         .hero h2 {
-            margin-top: 20px;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #6200ea;
+            margin-top: 20px;
         }
+
         .assistant-section {
             text-align: center;
             padding: 30px 20px;
             margin: 20px auto;
-            background-color: #fff;
+            background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
+            max-width: 800px;
         }
+
         .assistant-section p {
             font-size: 1.2rem;
             margin-bottom: 20px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6200ea;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -59,15 +91,20 @@
     </header>
 
     <div class="hero">
-        <img src="https://via.placeholder.com/300x300.png?text=AI+Assistant" alt="Man talking to phone">
-        <h2>Your Personal AI Assistant</h2>
+        <!-- Large Hero Image -->
+        <img src="https://images.app.goo.gl/1WBzAiXve33B2jsQ7" alt="Man talking to phone">
+        <h2>Welcome to the Future of AI Assistance</h2>
     </div>
 
     <div class="assistant-section">
-        <p>Interact with Spectra AI Assistant below:</p>
+        <p>Interact with Spectra AI Assistant below and experience cutting-edge AI technology.</p>
         <!-- Eleven Labs AI Assistant Embed Code -->
         <elevenlabs-convai agent-id="QTChbpeUykJTtaKL1F8X"></elevenlabs-convai>
         <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
     </div>
+
+    <footer>
+        <p>&copy; 2025 Spectra AI. All Rights Reserved. | <a href="https://github.com/">GitHub Pages</a></p>
+    </footer>
 </body>
 </html>
